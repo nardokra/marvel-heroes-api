@@ -1,1 +1,1 @@
-# acato-challenge-api
+See the README.md at [https://github.com/nardokra/marvel-heroes-client](https://github.com/nardokra/marvel-heroes-client)
