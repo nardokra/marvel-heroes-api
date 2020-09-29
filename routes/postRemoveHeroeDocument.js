@@ -5,7 +5,7 @@ const { response } = require('express');
 
 router.post('/remove-heroe-document', (req, res, next) =>{ 
   let newHeroeDocument = {
-    heroeDocumentId: req.body.heroeDocumentId,
+    heroeDocumentId: req.body.heroeDocumentId
   }
 
   HeroeDocument

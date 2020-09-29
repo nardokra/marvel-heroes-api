@@ -3,7 +3,7 @@ const router  = express.Router();
 const HeroeDocument = require('../models/HeroeDocument')
 const { response } = require('express');
 
-router.post('/add-heroe-document', (req, res, next) =>{  
+router.post('/add-heroe-document', (req, res, next) =>{
   let newHeroeDocument = {
     name: req.body.name,
     description: req.body.description,

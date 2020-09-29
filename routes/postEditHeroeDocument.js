@@ -5,7 +5,7 @@ const { response } = require('express');
 
 router.post('/edit-heroe-document', (req, res, next) =>{ 
   let newHeroeDocument = {
-    heroeDocumentId: req.body.heroeDocumentId,
+    heroeDocumentId: req.body._id,
     name: req.body.name,
     description: req.body.description,
     superPowers: req.body.superPowers 
